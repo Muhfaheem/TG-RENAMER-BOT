@@ -10,7 +10,7 @@
   ],
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/erichdanikeninfo/TG-Rename-Bot",
+  "repository": "https://github.com/Muhfaheem/TG-RENAMER-BOT",
   "logo": "https://telegra.ph/file/681227bece69de877e442.jpg",
   "env": {
     "WEBHOOK": {
@@ -50,7 +50,10 @@
       "description": "chunk size that should be used with requests",
       "value": "128",
       "required": false
-    }
+    },
+    "UPDATE_CHANNEL": {
+      "description": "For Force Subscribe. Paste your channel Username (without @).. Also Make The Bot Admin In That Channel!! ",
+      "value": ""
   },
   "addons": [
     {
